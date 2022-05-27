@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev3_9_projekt_rock-paper-scissors</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body class="card" style="width: 30rem;">
+    <header>
+        <h1>Rock Paper Scissors - Game</h1>
+    </header>
+    <section class="card-body">
+        <form action="">
+            <article>
+                <h2>How man rounds will you need to win?</h2>
+                <div class="input_rounds">
+                    <h4> Rounds:</h4>
+                    <input type="radio" name="radio" id="five">5
+                    <input type="radio" name="radio" id="ten">10
+                    <input type="radio" name="radio" id="fifteen">15
+                    <input type="radio" name="radio" id="twenty">20
+                </div>
+                <div class="score-board">
+                    <h4>Result:</h4>
+                    <div id="user-label" class="badge">user</div>
+                    <div id="computer-label" class="badge">com</div>
+                    <span id="user-score">0</span> : <span id="computer-score">0</span>
+                </div>
+                <div class="result">
+                </div>
+                <div class="choices">
+                    <h4>Choose wisly:</h4>
+                    <div class="choice" id="r">
+                        <img src="assets/img/image_FILL0_wght400_GRAD0_opsz48.png" alt="" height="80" width="80">
+                    </div>
+                    <div class="choice" id="p">
+                        <img src="assets/img/feed_FILL0_wght400_GRAD0_opsz48.png" alt="" height="80" width="80">
+                    </div>
+                    <div class="choice" id="s">
+                        <img src="assets/img/content_cut_FILL0_wght400_GRAD0_opsz48.png" alt="" height="80" width="80">
+                    </div>
+                </div>
+                <h4 id="action-message">Take your Chance !</h4>
+                <script src="assets/js/main.js"></script>
+</body>
+
+</html>
